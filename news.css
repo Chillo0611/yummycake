@@ -1,0 +1,131 @@
+
+  .thumb{
+    width: 100%;
+  }
+  .main-news{
+    margin-top: 20px;
+  }
+  .main-news h3{
+    line-height: 0.75;
+  }
+  .main-news h3 a{
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .image{
+    overflow: hidden;
+  }
+  .image-sm{
+    max-height: 180px;
+  }
+  .image-sm img{
+    height: 180px;
+  }
+  .image-xs{
+    max-height: 140px;
+  }
+  .image-xxs{
+    max-height: 100px;
+  }
+  .image img{
+    object-fit: cover;
+  }
+  .font-large{
+    font-size: 0.9em!important;
+    font-weight: 600!important;
+    color: #333;
+  }
+  .section-title{
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .section-title span{
+    font-weight: 400;
+    font-size: 17px;
+    color: #333;
+  }
+  .section-title span:after{
+    content: '';
+    position: absolute;
+    background: var(--pink);
+    width: 80px;
+    height: 2px;
+    left: 0;
+    bottom: 1;
+  }
+  .bb-1{
+    padding: 20px 0px;
+    border-bottom: 1px solid #eee;
+  }
+  .section{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+  }
+  small{
+    color: #999;
+  }
+  .summary{
+    color: #777;
+  }
+  .trending .row{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  .sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .no-pad{
+    padding-left: 0px!important;
+  }
+
+  .pagination ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 50px;
+    }
+    .pagination ul li {
+        color: var(--pink);
+        list-style: none;
+        line-height: 45px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        user-select: none;
+        transition: all 0.3s ease;
+    }
+    .pagination ul li.numb{
+        list-style: none;
+        height: 45px;
+        width: 45px;
+        margin: 0 3px;
+        line-height: 45px;
+        border-radius: 50%;
+    }
+    .pagination ul li.numb.first {
+        margin: 0px 3px 0 -5px;
+    }
+    .pagination ul li.numb.last{
+        margin: 0px -5px 0 3px;
+    }
+    .pagination ul li.dots {
+        font-size: 22px;
+        cursor: default;
+    }
+    .pagination ul li.btn{
+        padding: 0 20px;
+        border-radius: 50px;
+    }
+    .pagination li.active,
+    .pagination ul li.numb:hover,
+    .pagination li:first-child:hover,
+    .pagination ul li:last-child:hover{
+        color: #fff;
+        background: var(--pink);
+    }

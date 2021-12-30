@@ -1,0 +1,469 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+
+
+
+
+.card-wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.img-display{
+    overflow: hidden;
+}
+
+.product-content{
+    padding: 2rem 1rem;
+}
+
+.product-title{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: relative;
+    color: #12263a;
+    margin: 1rem 0;
+}
+
+.product-title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 80px;
+    background: var(--pink)!important;
+}
+
+.product-rating{
+    color: #ffc107;
+}
+
+.product-rating span{
+    font-weight: 600;
+    color: #252525;
+}
+.product-price{
+    margin: 0rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.product-price span{
+    font-weight: 400;
+}
+.last-price span{
+    color: #f64749;
+    text-decoration: line-through;
+}
+.new-price span{
+    color: #256eff;
+}
+.product-detail h2{
+    text-transform: capitalize;
+    color: #12263a;
+    padding-bottom: 0.6rem;
+}
+.product-detail p{
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    opacity: 0.8;
+    text-align: justify;
+}
+.purchase-info{
+    margin: 0.5rem 0;
+}
+.purchase-info input,
+.purchase-info .btn{
+    border: 2.0px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+}
+.purchase-info input{
+    width: 60px;
+}
+.purchase-info .btn{
+    cursor: pointer;
+    color: #fff;
+}
+.purchase-info .btn:first-of-type{
+    background: #256eff;
+    color: #fff;
+}
+.purchase-info .btn:hover{
+    opacity: 0.9;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+}
+.social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    color: #000;
+    border: 1px solid #000;
+    margin: 0 0.2rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: all 0.5s ease;
+}
+.social-links a:hover{
+    background: #000;
+    border-color: transparent;
+    color: #fff;
+}
+@media screen and (min-width: 992px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-wrapper{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-imgs{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 0rem;
+    }
+    .product-content{
+        padding-top: 0;
+    }
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+form { max-width:620px; margin:50px auto;}
+
+.feedback-input {
+    
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+  }
+  
+  .feedback-input:focus { border:2px solid #CC4949; }
+  
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+  }
+  
+  .review [type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:var(--pink)!important;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { background:var(--pink)!important; }
+
+  .content-item {
+    padding:30px 0;
+  background-color:#FFFFFF;
+}
+
+.content-item.grey {
+  background-color:#F0F0F0;
+  padding:50px 0;
+  height:100%;
+}
+
+.content-item h2 {
+  font-weight:700;
+  font-size:35px;
+  line-height:45px;
+  text-transform:uppercase;
+  margin:20px 0;
+}
+
+.content-item h3 {
+  font-weight:400;
+  font-size:20px;
+  color:#555555;
+  margin:10px 0 15px;
+  padding:0;
+}
+
+.content-headline {
+  height:1px;
+  text-align:center;
+  margin:20px 0 70px;
+}
+
+.content-headline h2 {
+  background-color:#FFFFFF;
+  display:inline-block;
+  margin:-20px auto 0;
+  padding:0 20px;
+}
+
+.grey .content-headline h2 {
+  background-color:#F0F0F0;
+}
+
+.content-headline h3 {
+  font-size:14px;
+  color:#AAAAAA;
+  display:block;
+}
+
+.content-item {
+    padding:30px 0;
+  background-color:#FFFFFF;
+}
+
+.content-item.grey {
+  background-color:#F0F0F0;
+  padding:50px 0;
+  height:100%;
+}
+
+.content-item h2 {
+  font-weight:700;
+  font-size:35px;
+  line-height:45px;
+  text-transform:uppercase;
+  margin:20px 0;
+}
+
+.content-item h3 {
+  font-weight:400;
+  font-size:20px;
+  color:#555555;
+  margin:10px 0 15px;
+  padding:0;
+}
+
+.content-headline {
+  height:1px;
+  text-align:center;
+  margin:20px 0 70px;
+}
+
+.content-headline h2 {
+  background-color:#FFFFFF;
+  display:inline-block;
+  margin:-20px auto 0;
+  padding:0 20px;
+}
+
+.grey .content-headline h2 {
+  background-color:#F0F0F0;
+}
+
+.content-headline h3 {
+  font-size:14px;
+  color:#AAAAAA;
+  display:block;
+}
+
+
+#comments {
+    box-shadow: 0 -1px 6px 1px rgba(0,0,0,0.1);
+  background-color:#FFFFFF;
+}
+
+#comments form {
+  margin-bottom:30px;
+}
+
+#comments .btn {
+  margin-top:7px;
+}
+
+#comments form fieldset {
+  clear:both;
+}
+
+#comments form textarea {
+  height:100px;
+}
+
+#comments .media {
+  border-top:1px dashed #DDDDDD;
+  padding:20px 0;
+  margin:0;
+}
+
+#comments .media > .pull-left {
+    margin-right:20px;
+}
+
+#comments .media img {
+  max-width:100px;
+}
+
+#comments .media h4 {
+  margin:0 0 10px;
+}
+
+#comments .media h4 span {
+  font-size:14px;
+  float:right;
+  color:#999999;
+}
+
+#comments .media p {
+  margin-bottom:15px;
+  text-align:justify;
+}
+
+#comments .media-detail {
+  margin:0;
+}
+
+#comments .media-detail li {
+  color:#AAAAAA;
+  font-size:12px;
+  padding-right: 10px;
+  font-weight:600;
+}
+
+#comments .media-detail a:hover {
+  text-decoration:underline;
+}
+
+#comments .media-detail li:last-child {
+  padding-right:0;
+}
+
+#comments .media-detail li i {
+  color:#666666;
+  font-size:15px;
+  margin-right:10px;
+}     
+
+.rate {
+    text-align: center;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+   
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.review-list ul li .left span {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+.review-list ul li .left {
+    flex: none;
+    max-width: none;
+    margin: 0 10px 0 0;
+}
+.review-list ul li .left span img {
+    border-radius: 50%;
+}
+.review-list ul li .right h4 {
+    font-size: 16px;
+    margin: 0;
+    display: flex;
+}
+.review-list ul li .right h4 .gig-rating {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: #ffbf00;
+}
+.review-list ul li .right h4 .gig-rating svg {
+    margin: 0 4px 0 0px;
+}
+.country .country-flag {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+    margin: 0 7px 0 0px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.country .country-name {
+    color: #95979d;
+    font-size: 13px;
+    font-weight: 600;
+}
+.review-list ul li {
+    border-bottom: 1px solid #dadbdd;
+    padding: 0 0 30px;
+    margin: 0 0 30px;
+}
+.review-list ul li .right {
+    flex: auto;
+}
+.review-list ul li .review-description {
+    margin: 20px 0 0;
+}
+.review-list ul li .review-description p {
+    font-size: 14px;
+    margin: 0;
+}
+.review-list ul li .publish {
+    font-size: 13px;
+    color: #95979d;
+}
