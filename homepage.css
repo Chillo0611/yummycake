@@ -51,9 +51,6 @@ body{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
 }
 
-#header{
-    background: top/cover no-repeat;
-}
 
 #about{
     background-color: rgba(179, 179, 179, 0.05);
