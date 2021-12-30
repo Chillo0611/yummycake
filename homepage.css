@@ -9,6 +9,10 @@ body{
     font-family: var(--sm-font);
 }
 
+#header{
+    background: url(https://cdn.nhanh.vn/cdn/store/26/artCT/58549/can_bao_nhieu_von_de_mo_cua_hang_kinh_doanh_banh_ngot_1.jpg) top/cover no-repeat;
+}
+
 /* button */
 .bg-primary{
     background-color: var(--pink)!important;
@@ -151,10 +155,6 @@ footer a{
 }
 footer a:hover{
     color: var(--pink)!important;
-}
-
-#header{
-    background: url(https://cdn.nhanh.vn/cdn/store/26/artCT/58549/can_bao_nhieu_von_de_mo_cua_hang_kinh_doanh_banh_ngot_1.jpg) top/cover no-repeat;
 }
 .carousel-inner h1{
     font-size: 60px;
