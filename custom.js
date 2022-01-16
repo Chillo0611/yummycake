@@ -29,11 +29,7 @@ $(document).ready(function(){
                 minlength:"Vui lòng nhập tên ít nhất 2 ký tự"
             },
             email:"Vui lòng nhập email đủ '.@gmail.com' của bạn",
-            phone:{
-                required: "Vui lòng nhập SĐT của bạn",
-                minlength:"Vui lòng nhập SĐT đủ 10 số",
-                maxlength:"Vui lòng nhập SĐT đủ 10 số"
-            },
+            phone:"Vui lòng nhập SĐT đủ 10 số",
             formMessage:{
                 required: "Vui lòng nhập nội dung của bạn",
                 minlength:"Vui lòng nhập nội dung ít nhất 100 ký tự"
