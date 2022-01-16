@@ -9,10 +9,6 @@ body{
     font-family: var(--sm-font);
 }
 
-#header{
-    background: url(https://cokhiviendong.com/wp-content/uploads/2018/11/kinh-nghi%E1%BB%87m-m%E1%BB%9F-ti%E1%BB%87m-b%C3%A1nh-ng%E1%BB%8Dt-6.jpg) top/cover no-repeat;
-}
-
 /* button */
 .bg-primary{
     background-color: var(--pink)!important;
@@ -54,7 +50,6 @@ body{
 .nav-item{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
 }
-
 
 #about{
     background-color: rgba(179, 179, 179, 0.05);
@@ -156,14 +151,7 @@ footer a{
 footer a:hover{
     color: var(--pink)!important;
 }
-.carousel-inner h1{
-    font-size: 60px;
-    font-family: var(--lg-font);
-}
-.carousel-item .btn{
-    border-color: #fff!important;
-}
-.carousel-item .btn:hover{
-    border-color: var(--pink)!important;
-}
+
+
+
 
